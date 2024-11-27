@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, sans-srief;
+    margin: 0;
+    padding: 20px;
+    width: 600px;
+
+}
+h1{
+    font-size: 18px;
+    text-align: center;
+}
+#tabs-container{
+    margin-top: 10px;
+    max-height: 400px;
+    overflow-y : auto;
+
+}
+
+.tab-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.tab-item button:hover{
+    background-color: #ff0000;
+}
